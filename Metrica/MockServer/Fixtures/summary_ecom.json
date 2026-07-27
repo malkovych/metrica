@@ -1,0 +1,51 @@
+{
+  "revenue": {
+    "value": 9240000,
+    "currency": "UAH",
+    "deltaPct": 15,
+    "compareLabelKey": "vs_last_same_weekday"
+  },
+  "hourly": [
+    { "h": 2, "v": 22 }, { "h": 4, "v": 16 }, { "h": 6, "v": 12 },
+    { "h": 8, "v": 28 }, { "h": 10, "v": 44 }, { "h": 12, "v": 52 },
+    { "h": 14, "v": 38 }, { "h": 16, "v": 60 }, { "h": 18, "v": 88 },
+    { "h": 20, "v": 72 }, { "h": 22, "v": 100 }, { "h": 0, "v": 64 }
+  ],
+  "profit": { "value": 2495000, "currency": "UAH", "deltaPct": null, "compareLabelKey": null },
+  "marginPct": 27,
+  "cashOnHand": null,
+  "ordersCount": 87,
+  "kpis": [
+    { "key": "orders", "title": null, "value": "87", "unitKey": null, "deltaPct": 15, "delta": null, "trend": "up" },
+    { "key": "aov", "title": null, "value": "₴1 062", "unitKey": null, "deltaPct": -4, "delta": null, "trend": "down" },
+    { "key": "conversion", "title": null, "value": "2.8%", "unitKey": null, "deltaPct": 0.3, "delta": null, "trend": "up" },
+    { "key": "returns", "title": null, "value": "3", "unitKey": null, "deltaPct": null, "delta": "normal", "trend": "neutral" }
+  ],
+  "blocks": [
+    {
+      "type": "stockAlert",
+      "title": "AirPods Pro 2 — залишок 3 шт.",
+      "body": "41 продаж за тиждень. Прогноз out-of-stock — завтра, втрати ≈ ₴ 19 400/день.",
+      "severity": "warning"
+    },
+    {
+      "type": "topList",
+      "titleKey": "top_products",
+      "items": [
+        { "name": "AirPods Pro 2", "emoji": "🎧", "sub": { "sold": 12, "marginPct": 22, "label": null }, "value": 3890000, "valueLabel": null, "trend": "warn", "badge": "3 pcs" },
+        { "name": "Xiaomi Band 9", "emoji": "⌚", "sub": { "sold": 9, "marginPct": 31, "label": null }, "value": 1395000, "valueLabel": null, "trend": "neutral", "badge": "57 pcs" },
+        { "name": "Чохол MagSafe", "emoji": "📱", "sub": { "sold": 17, "marginPct": 68, "label": null }, "value": 1013000, "valueLabel": null, "trend": "neutral", "badge": "142 pcs" }
+      ]
+    },
+    {
+      "type": "sourceList",
+      "titleKey": "order_sources",
+      "items": [
+        { "name": "Google Ads", "emoji": "🔍", "sub": { "sold": 38, "marginPct": null, "label": "38 orders" }, "value": 4070000, "valueLabel": null, "trend": "up", "badge": "ROAS 4.2" },
+        { "name": "Organic", "emoji": "🌱", "sub": { "sold": 27, "marginPct": null, "label": "27 orders" }, "value": 2860000, "valueLabel": null, "trend": "up", "badge": null },
+        { "name": "Instagram", "emoji": "📸", "sub": { "sold": 22, "marginPct": null, "label": "22 orders" }, "value": 2310000, "valueLabel": null, "trend": "down", "badge": null }
+      ]
+    }
+  ],
+  "updatedAt": "2026-07-24T18:41:00Z"
+}

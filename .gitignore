@@ -1,0 +1,9 @@
+.DS_Store
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
+*.xcresult
+Metrica/build/
+Metrica/*.xcodeproj/
+!Metrica/project.yml

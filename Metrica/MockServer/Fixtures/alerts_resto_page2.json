@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "id": "a5",
+      "icon": "🍽️",
+      "title": "«Карбонара» випала з топу",
+      "body": "Висока маржа (58%), але продажі −40% за 2 тижні",
+      "severity": "warning",
+      "deepLink": "metrica://business/biz-resto/dashboard/menu-abc",
+      "createdAt": "2026-07-18T12:00:00Z",
+      "isRead": true
+    }
+  ],
+  "nextCursor": null,
+  "unreadCount": 0
+}

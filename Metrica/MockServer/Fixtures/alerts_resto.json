@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": "a1",
+      "icon": "⚠️",
+      "title": "Скасування чеків",
+      "body": "Сьогодні 15:40 · офіціант Олег — 3 скасування на ₴ 1 240. Норма зміни: 0–1.",
+      "severity": "warning",
+      "deepLink": "metrica://business/biz-resto/dashboard/control",
+      "createdAt": "2026-07-24T15:40:00Z",
+      "isRead": false
+    },
+    {
+      "id": "a2",
+      "icon": "🔔",
+      "title": "Зміна закрита · ₴ 48 250",
+      "body": "Вчора 23:05 · Каса №1 · розбіжність каси: 0 ₴",
+      "severity": "positive",
+      "deepLink": "metrica://business/biz-resto/today",
+      "createdAt": "2026-07-23T23:05:00Z",
+      "isRead": true
+    },
+    {
+      "id": "a3",
+      "icon": "📉",
+      "title": "Виручка нижче середньої",
+      "body": "Вівторок −18% проти середнього вівторка за 4 тижні",
+      "severity": "warning",
+      "deepLink": "metrica://business/biz-resto/dashboard/revenue",
+      "createdAt": "2026-07-22T20:00:00Z",
+      "isRead": false
+    },
+    {
+      "id": "a4",
+      "icon": "🏆",
+      "title": "Рекорд середнього чека",
+      "body": "Субота: ₴ 189 — найкращий результат за 3 місяці",
+      "severity": "positive",
+      "deepLink": "metrica://business/biz-resto/dashboard/revenue",
+      "createdAt": "2026-07-19T22:00:00Z",
+      "isRead": true
+    }
+  ],
+  "nextCursor": "page2",
+  "unreadCount": 2
+}

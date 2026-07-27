@@ -1,0 +1,28 @@
+{
+  "key": "customers",
+  "titleKey": "dash_customers",
+  "csub": null,
+  "heroValue": null,
+  "heroDeltaPct": null,
+  "currency": "UAH",
+  "elements": [
+    {
+      "type": "bars",
+      "titleKey": "new_vs_returning",
+      "rows": [
+        { "label": "Нові", "pct": 58, "valueLabel": "58%" },
+        { "label": "Повторні", "pct": 42, "valueLabel": "42%" }
+      ],
+      "noteKey": "loyalty_note"
+    },
+    {
+      "type": "list",
+      "titleKey": "rfm",
+      "items": [
+        { "name": "Чемпіони", "emoji": null, "sub": { "sold": 214, "marginPct": null, "label": "214 клієнтів · купують щомісяця" }, "value": 412000, "valueLabel": "LTV ₴ 4 120", "trend": "up", "badge": null },
+        { "name": "Під ризиком відтоку", "emoji": null, "sub": { "sold": 96, "marginPct": null, "label": "96 клієнтів · 60+ днів без покупки" }, "value": 238000, "valueLabel": "LTV ₴ 2 380", "trend": "down", "badge": null },
+        { "name": "Сплячі", "emoji": null, "sub": { "sold": 310, "marginPct": null, "label": "310 клієнтів · 120+ днів" }, "value": 94000, "valueLabel": "LTV ₴ 940", "trend": "neutral", "badge": null }
+      ]
+    }
+  ]
+}

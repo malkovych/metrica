@@ -1,0 +1,34 @@
+{
+  "id": "user-1",
+  "email": "owner@metrica.app",
+  "name": "Павло М.",
+  "role": "owner",
+  "businesses": [
+    {
+      "id": "biz-resto",
+      "name": "Pizza Nova",
+      "emoji": "🍕",
+      "sourceType": "poster",
+      "mode": "resto",
+      "currency": "UAH",
+      "locations": [
+        { "id": "loc-pozniaky", "name": "Позняки" },
+        { "id": "loc-obolon", "name": "Оболонь" }
+      ]
+    },
+    {
+      "id": "biz-ecom",
+      "name": "TechShop",
+      "emoji": "🛒",
+      "sourceType": "woocommerce",
+      "mode": "ecom",
+      "currency": "UAH",
+      "locations": []
+    }
+  ],
+  "team": [
+    { "id": "t1", "name": "Павло М.", "email": "owner@metrica.app", "role": "owner" },
+    { "id": "t2", "name": "Ірина К.", "email": null, "role": "manager" },
+    { "id": "t3", "name": "invest@fund.ua", "email": "invest@fund.ua", "role": "investor" }
+  ]
+}

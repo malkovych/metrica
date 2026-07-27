@@ -1,0 +1,48 @@
+{
+  "revenue": {
+    "value": 4825000,
+    "currency": "UAH",
+    "deltaPct": 12,
+    "compareLabelKey": "vs_last_same_weekday"
+  },
+  "hourly": [
+    { "h": 10, "v": 18 }, { "h": 11, "v": 26 }, { "h": 12, "v": 34 },
+    { "h": 13, "v": 30 }, { "h": 14, "v": 52 }, { "h": 15, "v": 74 },
+    { "h": 16, "v": 58 }, { "h": 17, "v": 40 }, { "h": 18, "v": 46 },
+    { "h": 19, "v": 66 }, { "h": 20, "v": 100 }, { "h": 21, "v": 82 }
+  ],
+  "profit": { "value": 1789000, "currency": "UAH", "deltaPct": null, "compareLabelKey": null },
+  "marginPct": 37,
+  "cashOnHand": 612000,
+  "ordersCount": null,
+  "kpis": [
+    { "key": "receipts", "title": null, "value": "312", "unitKey": null, "deltaPct": 8, "delta": null, "trend": "up" },
+    { "key": "guests", "title": null, "value": "428", "unitKey": null, "deltaPct": 5, "delta": null, "trend": "up" },
+    { "key": "avg_receipt", "title": null, "value": "₴155", "unitKey": null, "deltaPct": 3, "delta": null, "trend": "up" },
+    { "key": "service_time", "title": null, "value": "14", "unitKey": "min", "deltaPct": null, "delta": "+2", "trend": "down" }
+  ],
+  "blocks": [
+    {
+      "type": "shiftStatus",
+      "state": "open",
+      "openedAt": "09:58",
+      "register": "1",
+      "lead": "Iryna K."
+    },
+    {
+      "type": "topList",
+      "titleKey": "top_dishes",
+      "items": [
+        { "name": "Піца Маргарита", "emoji": null, "sub": { "sold": 58, "marginPct": 64, "label": null }, "value": 870000, "valueLabel": null, "trend": "up", "badge": null },
+        { "name": "Паста Карбонара", "emoji": null, "sub": { "sold": 31, "marginPct": 58, "label": null }, "value": 589000, "valueLabel": null, "trend": "down", "badge": null },
+        { "name": "Тірамісу", "emoji": null, "sub": { "sold": 44, "marginPct": 71, "label": null }, "value": 484000, "valueLabel": null, "trend": "up", "badge": null }
+      ]
+    },
+    {
+      "type": "paymentSplit",
+      "card": 68,
+      "cash": 32
+    }
+  ],
+  "updatedAt": "2026-07-24T18:41:00Z"
+}

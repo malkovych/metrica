@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": "e1",
+      "icon": "📦",
+      "title": "Топ-товар закінчується",
+      "body": "AirPods Pro 2: залишок 3 шт. Прогноз out-of-stock — завтра, втрати ≈ ₴ 19 400/день",
+      "severity": "warning",
+      "deepLink": "metrica://business/biz-ecom/dashboard/products",
+      "createdAt": "2026-07-24T14:00:00Z",
+      "isRead": false
+    },
+    {
+      "id": "e2",
+      "icon": "↩️",
+      "title": "Сплеск повернень",
+      "body": "6 повернень за день (норма 1–2). Основна причина: «не підійшов»",
+      "severity": "warning",
+      "deepLink": "metrica://business/biz-ecom/dashboard/orders",
+      "createdAt": "2026-07-24T12:00:00Z",
+      "isRead": false
+    },
+    {
+      "id": "e3",
+      "icon": "🏆",
+      "title": "Рекорд дня",
+      "body": "₴ 92 400 — найкращий день липня",
+      "severity": "positive",
+      "deepLink": "metrica://business/biz-ecom/today",
+      "createdAt": "2026-07-24T20:00:00Z",
+      "isRead": true
+    },
+    {
+      "id": "e4",
+      "icon": "🛒",
+      "title": "0 замовлень 2 години",
+      "body": "Сьогодні 03:00–05:00 — перевірте платіжний шлюз",
+      "severity": "critical",
+      "deepLink": "metrica://business/biz-ecom/dashboard/orders",
+      "createdAt": "2026-07-24T05:00:00Z",
+      "isRead": false
+    }
+  ],
+  "nextCursor": "page2",
+  "unreadCount": 3
+}

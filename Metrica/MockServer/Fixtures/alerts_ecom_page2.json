@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "id": "e5",
+      "icon": "💳",
+      "title": "AOV знижується",
+      "body": "₴ 1 062 (−4%). Спробуйте бандли або поріг безкоштовної доставки",
+      "severity": "warning",
+      "deepLink": "metrica://business/biz-ecom/dashboard/sales",
+      "createdAt": "2026-07-20T10:00:00Z",
+      "isRead": true
+    }
+  ],
+  "nextCursor": null,
+  "unreadCount": 0
+}

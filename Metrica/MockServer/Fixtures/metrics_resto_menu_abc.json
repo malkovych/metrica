@@ -1,0 +1,29 @@
+{
+  "key": "menu-abc",
+  "titleKey": "dash_menu_abc",
+  "csub": null,
+  "heroValue": null,
+  "heroDeltaPct": null,
+  "currency": "UAH",
+  "elements": [
+    {
+      "type": "matrix",
+      "titleKey": "menu_matrix",
+      "quadrants": [
+        { "key": "stars", "titleKey": "q_stars", "count": 12, "bodyKey": "q_stars_body", "tone": "green" },
+        { "key": "workhorses", "titleKey": "q_workhorses", "count": 18, "bodyKey": "q_workhorses_body", "tone": "amber" },
+        { "key": "puzzles", "titleKey": "q_puzzles", "count": 7, "bodyKey": "q_puzzles_body", "tone": "blue" },
+        { "key": "dogs", "titleKey": "q_dogs", "count": 9, "bodyKey": "q_dogs_body", "tone": "red" }
+      ]
+    },
+    {
+      "type": "list",
+      "titleKey": "top_dishes_week",
+      "items": [
+        { "name": "Піца Маргарита", "emoji": null, "sub": { "sold": 342, "marginPct": 64, "label": null }, "value": 5130000, "valueLabel": null, "trend": "up", "badge": null },
+        { "name": "Тірамісу", "emoji": null, "sub": { "sold": 261, "marginPct": 71, "label": null }, "value": 2870000, "valueLabel": null, "trend": "up", "badge": null },
+        { "name": "Паста Карбонара", "emoji": null, "sub": { "sold": 187, "marginPct": 58, "label": null }, "value": 3550000, "valueLabel": null, "trend": "down", "badge": null }
+      ]
+    }
+  ]
+}

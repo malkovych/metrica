@@ -1,0 +1,35 @@
+{
+  "key": "sales",
+  "titleKey": "dash_sales",
+  "csub": "487 orders · AOV ₴1,053 · conversion 2.7%",
+  "heroValue": 51270000,
+  "heroDeltaPct": 14,
+  "currency": "UAH",
+  "elements": [
+    {
+      "type": "bars",
+      "titleKey": "weekly_sales",
+      "rows": [
+        { "label": "Пн", "pct": 64, "valueLabel": "67к" },
+        { "label": "Вт", "pct": 58, "valueLabel": "61к" },
+        { "label": "Ср", "pct": 71, "valueLabel": "74к" },
+        { "label": "Чт", "pct": 66, "valueLabel": "69к" },
+        { "label": "Пт", "pct": 88, "valueLabel": "92к" },
+        { "label": "Сб", "pct": 100, "valueLabel": "105к" },
+        { "label": "Нд", "pct": 73, "valueLabel": "76к" }
+      ],
+      "noteKey": null
+    },
+    {
+      "type": "funnel",
+      "titleKey": "weekly_funnel",
+      "rows": [
+        { "label": "Відвідувачі", "pct": 100, "valueLabel": "18 040" },
+        { "label": "Кошик", "pct": 34, "valueLabel": "1 226" },
+        { "label": "Оформлення", "pct": 21, "valueLabel": "742" },
+        { "label": "Замовлення", "pct": 13, "valueLabel": "487" }
+      ],
+      "noteKey": "funnel_drop_note"
+    }
+  ]
+}

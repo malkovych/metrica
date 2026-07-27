@@ -1,0 +1,61 @@
+# Metrica iOS CI
+name: Metrica iOS
+
+on:
+  push:
+    paths:
+      - "Metrica/**"
+      - ".github/workflows/ios.yml"
+  pull_request:
+    paths:
+      - "Metrica/**"
+      - ".github/workflows/ios.yml"
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: macos-15
+    defaults:
+      run:
+        working-directory: Metrica
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Generate project
+        run: xcodegen generate
+
+      - name: Boot simulator
+        run: |
+          UDID=$(xcrun simctl list devices available -j | python3 - <<'PY'
+import json,sys
+d=json.load(sys.stdin)
+for runtimes, devices in d["devices"].items():
+    if "iOS" not in runtimes: continue
+    for dev in devices:
+        if dev.get("isAvailable") and "iPhone" in dev.get("name",""):
+            print(dev["udid"]); raise SystemExit
+raise SystemExit("no simulator")
+PY
+)
+          echo "UDID=$UDID" >> "$GITHUB_ENV"
+          xcrun simctl boot "$UDID" || true
+
+      - name: Build & test
+        run: |
+          set -o pipefail
+          xcodebuild \
+            -scheme Metrica \
+            -destination "platform=iOS Simulator,id=$UDID" \
+            -only-testing:MetricaTests \
+            test
+          xcodebuild \
+            -scheme Metrica \
+            -destination "platform=iOS Simulator,id=$UDID" \
+            -only-testing:MetricaUITests \
+            test

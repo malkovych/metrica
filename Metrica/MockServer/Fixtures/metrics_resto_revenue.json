@@ -1,0 +1,42 @@
+{
+  "key": "revenue",
+  "titleKey": "dash_revenue",
+  "csub": "profit ₴109,200 · margin 37%",
+  "heroValue": 29748000,
+  "heroDeltaPct": 9,
+  "currency": "UAH",
+  "elements": [
+    {
+      "type": "bars",
+      "titleKey": "weekly_revenue",
+      "rows": [
+        { "label": "Пн", "pct": 52, "valueLabel": "41.2к" },
+        { "label": "Вт", "pct": 48, "valueLabel": "38.0к" },
+        { "label": "Ср", "pct": 55, "valueLabel": "43.5к" },
+        { "label": "Чт", "pct": 61, "valueLabel": "48.3к" },
+        { "label": "Пт", "pct": 78, "valueLabel": "61.7к" },
+        { "label": "Сб", "pct": 100, "valueLabel": "79.1к" },
+        { "label": "Нд", "pct": 84, "valueLabel": "66.5к" }
+      ],
+      "noteKey": null
+    },
+    {
+      "type": "bars",
+      "titleKey": "channels",
+      "rows": [
+        { "label": "Зал", "pct": 62, "valueLabel": "62%" },
+        { "label": "Доставка", "pct": 24, "valueLabel": "24%" },
+        { "label": "Самовивіз", "pct": 14, "valueLabel": "14%" }
+      ],
+      "noteKey": null
+    },
+    {
+      "type": "list",
+      "titleKey": "location_compare",
+      "items": [
+        { "name": "Позняки", "emoji": null, "sub": { "sold": null, "marginPct": null, "label": "сер. чек ₴ 162" }, "value": 16830000, "valueLabel": null, "trend": "up", "badge": null },
+        { "name": "Оболонь", "emoji": null, "sub": { "sold": null, "marginPct": null, "label": "сер. чек ₴ 149" }, "value": 12918000, "valueLabel": null, "trend": "up", "badge": null }
+      ]
+    }
+  ]
+}
